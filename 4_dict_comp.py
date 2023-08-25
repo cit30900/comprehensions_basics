@@ -6,16 +6,10 @@ def main():
     # dictionary = {key: value for vars in iterable}
 
     # Write the contents of the dictionary into a new dictionary
-    products2 = {k: v for (k, v) in products.items()}
-    print(products2)
 
     # Create a list of keys from the dictionary
-    keys = [k for (k,v) in products.items()]
-    print(keys)
 
     # Create a list of values from the dictionary
-    values = [v for (k,v) in products.items()]
-    print(values)
 
 if __name__== "__main__":
   main()
